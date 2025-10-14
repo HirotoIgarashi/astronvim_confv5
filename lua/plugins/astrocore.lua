@@ -92,6 +92,8 @@ return {
         -- local_vim.opt.formatoptions = "tcqjrolmM"
         -- formatoptions = "tcqjromM",
         formatoptions = "tcqjn",
+
+        shell = "/usr/bin/bash",
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
