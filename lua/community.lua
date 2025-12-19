@@ -33,9 +33,8 @@ return {
   -- MOTION PLUGINS
   { import = "astrocommunity.motion.nvim-surround" },
   -- NOTE TAKING PLUGINS
-  { import = "astrocommunity.note-taking.global-note-nvim" },
   -- PROGRAMMING LANGUAGE SUPPORT PLUGINS
-  -- PROJECT PLUGINS
+  -- PROJE
   -- REGISTER PLUGINS
   -- REMOTE DEVELOPMENT PLUGINS
   -- SCROLLING PLUGINS
