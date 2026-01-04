@@ -34,6 +34,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   -- NOTE TAKING PLUGINS
   -- PROGRAMMING LANGUAGE SUPPORT PLUGINS
+  { import = "astrocommunity.programming-language-support.csv-vim" },
   -- PROJE
   -- REGISTER PLUGINS
   -- REMOTE DEVELOPMENT PLUGINS
