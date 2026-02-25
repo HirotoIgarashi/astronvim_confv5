@@ -7,6 +7,8 @@ return {
     bigfile = { enabled = true },
     explorer = { enabled = true }, -- エクスプローラーを有効化
     quickfile = { enabled = true },
+    scroll = { enabled = true },
+    statuscolumn = { enabled = true },
     words = { enabled = true },
     terminal = {
       win = {
