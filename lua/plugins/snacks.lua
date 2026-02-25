@@ -4,8 +4,8 @@ return {
     picker = {
       -- Pickerのカスタマイズ設定
     },
-    explorer = { enabled = true }, -- エクスプローラーを有効化
     bigfile = { enabled = true },
+    explorer = { enabled = true }, -- エクスプローラーを有効化
     quickfile = { enabled = true },
     words = { enabled = true },
     terminal = {
