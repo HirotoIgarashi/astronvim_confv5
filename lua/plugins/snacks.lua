@@ -1,5 +1,8 @@
 return {
   "folke/snacks.nvim",
+
+  priority = 1000,
+  lazy = false,
   opts = {
     picker = {
       -- Pickerのカスタマイズ設定
@@ -15,12 +18,12 @@ return {
         keys = {},
       },
     },
-    ---@class snacks.picker.db.Config
-    db = {
-      -- path to the sqlite3 library
-      -- If not set, it will try to load the library by name.
-      -- On Windows it will download the library from the internet.
-      -- sqlite3_path = "usr/bin/sqlite3",
-    },
   },
+  config = function(_, opts)
+    require("snacks").setup(opts)
+    -- ここで明示的にセットする
+    -- Heirline の後に実行されるように少し遅らせて適用、
+    -- または明示的に snacks の関数をセットする
+    vim.schedule(function() vim.opt.statuscolumn = [[%!v:lua.require'snacks.statuscolumn'.get()]] end)
+  end,
 }
