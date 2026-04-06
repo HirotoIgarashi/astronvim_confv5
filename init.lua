@@ -23,5 +23,7 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+-- vim.g.loaded_perl_provider = 0
+
 require "lazy_setup"
 require "polish"
